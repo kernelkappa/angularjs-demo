@@ -20,7 +20,7 @@ phases:
       # - echo testing...
       # - echo building...
       - ng build --prod
-      - ls -la dist 
+      - ls -la dist
 artifacts:
   files:
     - "**/*"
