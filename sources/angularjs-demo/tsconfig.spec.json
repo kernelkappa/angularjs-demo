@@ -9,10 +9,10 @@
   },
   "files": [
     "src/test.ts",
-    "src/polyfills.ts"
+    "sources/angularjs-demo/src/polyfills.ts"
   ],
   "include": [
-    "src/**/*.spec.ts",
-    "src/**/*.d.ts"
+    "sources/angularjs-demo/src/**/*.spec.ts",
+    "sources/angularjs-demo/src/**/*.d.ts"
   ]
 }

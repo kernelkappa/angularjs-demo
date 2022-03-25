@@ -12,6 +12,7 @@ phases:
       - apt install --no-install-recommends yarn
   pre_build:
     commands:
+      - cd sources/angularjs-demo
       - echo installing dependencies...
       - npm i -g @angular/cli
       - npm install
@@ -19,7 +20,7 @@ phases:
     commands:
       # - echo testing...
       # - echo building...
-      - ng build --prod
+      - ng build --dev
       - ls -la dist
 artifacts:
   files:
