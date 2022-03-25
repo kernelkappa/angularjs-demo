@@ -21,7 +21,10 @@ phases:
       # - echo testing...
       # - echo building...
       - pwd
+      - ls -la
       - cd sources/angularjs-demo
+      - pwd
+      - ls -la
       - ng build
       - ls -la dist/app
 artifacts:
