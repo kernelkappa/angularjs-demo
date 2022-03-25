@@ -20,10 +20,12 @@ phases:
     commands:
       # - echo testing...
       # - echo building...
+      - pwd
+      - cd sources/angularjs-demo
       - ng build
       - ls -la dist/app
 artifacts:
   files:
     - "**/*"
   discard-paths: no
-  base-directory: dist/app
+  base-directory: cd sources/angularjs-demo/dist/app
