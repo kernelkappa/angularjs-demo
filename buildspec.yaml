@@ -20,7 +20,7 @@ phases:
     commands:
       # - echo testing...
       # - echo building...
-      #- ng build
+      - ng build
       - ls -la dist/app
 artifacts:
   files:
