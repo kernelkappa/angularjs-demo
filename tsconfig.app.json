@@ -5,10 +5,10 @@
     "types": []
   },
   "include": [
-    "sources/angularjs-demo/src/**/*.ts"
+    "src/**/*.ts"
   ],
   "exclude": [
     "src/test.ts",
-    "sources/angularjs-demo/src/**/*.spec.ts"
+    "src/**/*.spec.ts"
   ]
 }
