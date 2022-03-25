@@ -20,7 +20,7 @@ phases:
     commands:
       # - echo testing...
       # - echo building...
-      - ng build
+      - ng build --prod
       - ls -la dist/angularjs-demo
 artifacts:
   files:
