@@ -13,6 +13,8 @@ phases:
   pre_build:
     commands:
       - cd sources/angularjs-demo
+      - pwd
+      - ls -la
       - echo installing dependencies...
       - npm i -g @angular/cli
       - npm install
