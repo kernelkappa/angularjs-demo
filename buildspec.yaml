@@ -12,7 +12,8 @@ phases:
       - apt install --no-install-recommends yarn
   pre_build:
     commands:
-      - cd sources/angularjs-demo
+      - pwd
+      - cd "`pwd`/sources/angularjs-demo"
       - pwd
       - ls -la
       - echo installing dependencies...
@@ -24,7 +25,7 @@ phases:
       # - echo building...
       - pwd
       - ls -la
-      - cd sources/angularjs-demo
+      - cd "`pwd`/sources/angularjs-demo"
       - pwd
       - ls -la
       - ng build
