@@ -21,7 +21,7 @@ phases:
       # - echo building...
       - ng build
       - ls -la dist/app
-      - zip dist/app/* angularjs-demo.zip
+      - zip dist/app/**/* angularjs-demo.zip
 artifacts:
   files:
     - "angular-demo.zip"
