@@ -25,4 +25,4 @@ artifacts:
   files:
     - "**/*"
   discard-paths: no
-  base-directory: dist/angularjs-demo
+  base-directory: dist/app
