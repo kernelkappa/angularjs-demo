@@ -1,0 +1,11 @@
+version: 0.1
+os: ubuntu
+
+files:
+  - source: ./**/*
+    destination: ~/
+
+hooks:
+  BeforeInstall:
+    - location: sh ./before-install.sh
+      timeout: 900
